@@ -27,7 +27,7 @@ namespace CRUD_App_Sql.Controllers
             catch (Exception ex)
             {
                 // Log the exception or handle it as per your requirements
-                return StatusCode(StatusCodes.Status500InternalServerError, , ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError,ex.Message);
             }
         }
 
